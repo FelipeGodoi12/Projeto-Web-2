@@ -68,6 +68,7 @@ document.getElementById('form').addEventListener('submit', addUser);
 document.getElementById('clearAll').addEventListener('click', clearAll);
 document.getElementById('lista').addEventListener('click', deleteUser);
 document.getElementById('busca').addEventListener('input', Buscar);
+document.getElementById('clear').addEventListener('click', Limpar);
 
 //Renderiza a lista ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
